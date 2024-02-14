@@ -25,9 +25,9 @@ new algorithms to compute the final grade if necessary without having to modify 
 and Course classes. Implement this solution using the Strategy pattern.
 
 Use the following two algorithms for computing the grade in your implementation:
-A. The average score of the assignments contributes 40% of the final grade, and the average of
+1. The average score of the assignments contributes 40% of the final grade, and the average of
 the exams contributes 60%.
-B. Use the same percentages as the first algorithm, but if the student fails (less than 50%) the
+2. Use the same percentages as the first algorithm, but if the student fails (less than 50%) the
 test portion of the course then its final grade will be the minimum between the actual grade and
 45%.
 
